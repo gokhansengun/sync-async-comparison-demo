@@ -1,0 +1,5 @@
+packages
+SyncAsyncComparison/obj
+SyncAsyncComparison/bin
+.vs
+*.userprefs
