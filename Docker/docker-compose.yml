@@ -1,0 +1,25 @@
+version: '2'
+
+services:
+
+  app:
+    image: mono:latest
+    expose:
+      - "43567"
+    ports:
+      - "43567:43567"
+    volumes:
+      - artifact:/artifact
+    command: [ "mono",  "/artifact/SyncAsyncComparison.exe" ]
+
+  build:
+    image: sync-async-comp-build  
+    build:
+      context: ../
+      dockerfile: ./Docker/Dockerfile-Mono-Build
+    volumes:
+      - artifact:/artifact
+
+volumes:
+  artifact:
+    driver: local

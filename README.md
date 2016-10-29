@@ -2,7 +2,7 @@
 
 This repository is used in the blog post digging database transaction internals below.
 
-[www.gokhansengun.com/asp-net-mvc-and-web-api-comparison-of-async-or-sync-actions](www.gokhansengun.com/asp-net-mvc-and-web-api-comparison-of-async-or-sync-actions)
+[http://www.gokhansengun.com/asp-net-mvc-and-web-api-comparison-of-async-or-sync-actions](http://www.gokhansengun.com/asp-net-mvc-and-web-api-comparison-of-async-or-sync-actions)
 
 ## Excerpt from the blog post
 
